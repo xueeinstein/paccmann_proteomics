@@ -228,6 +228,9 @@ seq_clf_tasks_num_labels = {
     'qnli': 2,
     'rte': 2,
     'wnli': 2,
+    's645': 1,
+    's1131': 1,
+    's4169': 1,
 }
 
 seq_clf_processors = {
@@ -256,4 +259,7 @@ seq_clf_output_modes = {
     'qnli': 'classification',
     'rte': 'classification',
     'wnli': 'classification',
+    's645': 'regression',
+    's1131': 'regression',
+    's4169': 'regression',
 }

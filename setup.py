@@ -26,7 +26,7 @@ setup(
         'torch>=1.3', 
         'torchvision', 
         'transformers==3.0.2', 
-        'tokenizers==0.8.0',
+        'tokenizers==0.8.1.rc1',
         'scikit-learn==0.23.2',
         'seaborn',
         'tensorboardX',
